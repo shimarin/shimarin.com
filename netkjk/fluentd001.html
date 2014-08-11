@@ -1,0 +1,57 @@
+{{define "details"}}
+<p><a href="http://forum.walbrix.net/t/fluentd/26">http://forum.walbrix.net/t/fluentd/26</a>にてテスト公開している仮想アプライアンスです。</p>
+
+<p>以下、<a href="https://github.com/fluent/fluentd/blob/master/ChangeLog">Fluentdの ChangeLog</a>より引用</p>
+<pre>
+Release 0.10.52 - 2014/07/15
+
+* in_tail: Fix typo of warning argument. lb to line
+* config: Fix 'uninitialized constant Fluent::Config::V1Parser::URI' error
+* config: Reject '@' prefix of parameter name in V1 configuration. @ is reserved prefix.
+* config; Accept '#' comment in array and hash types
+* parser: Add time_format option to SyslogParser
+* parser: SyslogParser now makes ':' optional after pid
+* process: Fix 'mutex can't lock' issue of DetachMultiProcessMixin on Ruby 2.x
+* Add --without-source option to ignore <source> sections
+
+Release 0.10.51 - 2014/07/04
+
+* in_tail: Fix rotation handling when new file not found
+* in_syslog: Change debug log level to warn at pattern mismatch
+* formatter: Use localtime by default
+* parser: Add SyslogParser
+* parser: Add "estimate_current_event" attribute to TextParsers not to set current time into parse result
+* config: Add <system> section to set core parameters via configuration file
+* test: Support v1 configuration in TestDriver
+* Add udp and tcp input plugins
+
+Release 0.10.50 - 2014/06/17
+
+* in_tail: Fix race condition at shutdown
+* in_tail: read_from_head now works without pos_file
+* in_tail: Fix multiline format parsing without format_firstline
+* formatter: Add add_newline option to SingleValueFormatter
+* parser: Add block based API to support multi-events parsing
+* config: Fix encoding mismatch when @include used in v1
+* engine: Serialize shutdown order. Now shutdown input plugins first
+* Update rspec to 3.x
+
+Release 0.10.49 - 2014/06/05
+
+* in_http: Add format option to support various input data format
+* in_http: Accept json / msgpack array in default format
+* in_tail: Print warning message when file not exist with 'read_from_head true'
+* out_file: Add append option to disable path increment
+* out_file: Add format option to support various output data format
+* config: Fix broken 'include' processing in V1 configuration. Now add @include
+* fluentd-debug: Fix undefined method 'usage' error when invalid option passed
+* supervisor: Fix incorrect --group option handling
+* Add TextFormatter module for output plugins
+
+Release 0.10.48 - 2014/05/18
+
+* config: Add inspect method to Section for dumping the status
+* test: Fix the regression which forget to initialize $log in fluent/test.rb
+* Engine: Remove undocumented legacy plugin load mechanizm
+</pre>
+{{end}}

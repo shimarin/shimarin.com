@@ -1,0 +1,35 @@
+{{define "title"}}TOP - shimarin.com{{end}}
+{{define "content"}}
+      <div class="jumbotron" style="text-align: center; background-color: transparent;">
+        <h1>shimarin.com</h1>
+        <p>嶋田 大貴について</p>
+      </div>
+      <p>ネットで顔の見えない相手から急に石を投げられないよう自己防衛するには目立たないように振る舞うよりないのだけど（日本社会の闇が垣間見えますね）、仕事の立場上は「よくわかんないけどすごそうな奴」に見えるように気を使わなきゃいけないから、なんだかどうすればいいのかよくわかんなくて困っちゃう今日このごろ。見せ人格をあれこれ使い分けるほど器用ではないのです。</p>
+      <p>申し遅れましたが私、コンピュータの主にソフトウェアに関する仕事をしているただのおっさんです。だから石、投げないで！</p>
+      {{range $index, $row := .rows}}
+      <div class="row">
+	{{range $index, $col := $row.cols}}
+        <div class="col-sm-3">
+          {{if $col.href}}<a href="{{$col.href}}">{{end}}<img src="{{$col.image}}" class="img-responsive img-rounded">{{if $col.href}}</a>{{end}}
+          <h4>{{$col.title}}</h4>
+          {{if $col.href}}<p><a href="{{$col.href}}">{{$col.link_text}}</a></p>{{end}}
+          <p>{{$col.description}}</p>
+        </div>
+	{{end}}
+      </div>
+      {{end}}
+
+      <h3>その他</h3>
+      <ul>
+	{{range $index, $link := .links}}
+        <li><a href="{{$link.href}}">{{$link.link_text}}</a></li>
+	{{end}}
+      </ul>
+
+      <p class="text-center">
+      <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/shimariso" data-widget-id="448455770825183232">Tweets by @shimariso</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </p>
+</script>
+{{pages}}
+{{end}}

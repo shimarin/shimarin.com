@@ -1,0 +1,44 @@
+[
+	{
+		"name":"index",
+		"rows":[
+			{
+			    "cols":[
+				{"title":"来歴","image":"http://assets.shimarin.com/img/history.jpg","href":"http://bio.shimarin.com","link_text":"bio.shimarin.com","description":"ブラック・ヒストリーすなわち黒歴史ともいう。"},
+				{"title":"会社","image":"http://assets.shimarin.com/img/company.jpg","href":"http://company.shimarin.com","link_text":"company.shimarin.com","description":"嶋田は実質フリーランスですが、便宜上東京都内に株式会社を登記しています。"},
+				{"title":"ブログ","image":"http://assets.shimarin.com/img/blog.jpg","href":"http://blog.shimarin.com","link_text":"blog.shimarin.com","description":"気が向いたらたまに書くブログです。"},
+				{"title":"英語","image":"http://assets.shimarin.com/img/anime-in-english.jpg","href":"http://anime-in-english.shimarin.com","link_text":"anime-in-english.shimarin.com","description":"逆輸入版アニメDVDの英語音声・英語字幕を解説"}
+			    ]
+			},
+			{
+			    "cols":[
+				{"title":"おかね","image":"http://assets.shimarin.com/img/income.jpg","description":"会社から月給85,000円しかもらっていませんので飢えています。お恵みください。","href":"/netkjk/","link_text":"ネット乞食"},
+				{"title":"スキル","image":"http://assets.shimarin.com/img/skills.jpg","href":"http://skills.shimarin.com","link_text":"skills.shimarin.com","description":"具体的にどんなお仕事を承っているかはこちらを御覧ください。"},
+				{"title":"プロダクト","image":"http://assets.shimarin.com/img/product.jpg","href":"http://product.shimarin.com","link_text":"product.shimarin.com","description":"最新のXenと Linuxカーネルを使って独自に構成した仮想サーバ専用OSを作っています。"},
+				{"title":"インド","image":"http://assets.shimarin.com/img/india.jpg","href":"http://india.shimarin.com","link_text":"india.shimarin.com","description":"たまに日本を離れて海外生活（主にインド）をしています。インドは元イギリスなので英語が通じます。"}
+			    ]
+			},
+			{
+			    "cols":[
+				{"title":"Twitter","image":"http://assets.shimarin.com/img/twitter.jpg","href":"http://twitter.shimarin.com","link_text":"twitter.shimarin.com","description":"人となりはここを見ればだいたいわかります"},
+				{"title":"Facebook","image":"http://assets.shimarin.com/img/facebook.jpg","href":"http://facebook.shimarin.com","link_text":"facebook.shimarin.com","description":"新着情報の告知と、海外向けに英語でなんか言う時用"},
+				{"title":"GitHub","image":"http://assets.shimarin.com/img/github.png","href":"http://github.shimarin.com","link_text":"github.shimarin.com","description":"試作品とか放り込んでおいたり"},
+				{"title":"LinkedIn","image":"http://assets.shimarin.com/img/linkedin.png","href":"http://linkedin.shimarin.com","link_text":"linkedin.shimarin.com","description":"現代のビジネス名刺ですね"}
+			    ]
+			},
+			{
+			    "cols":[
+				{"title":"掲示板","image":"http://assets.shimarin.com/img/forum.png","href":"http://forum.shimarin.com","link_text":"forum.shimarin.com","description":"discourseという最先端のフォーラム構築システムを使っています。Twitter, Facebookアカウントでログイン可能。"}
+			    ]
+			}
+		],
+		"links":[
+			{"href":"http://googleplus.shimarin.com","link_text":"googleplus.shimarin.com"},
+			{"href":"http://slideshare.shimarin.com","link_text":"slideshare.shimarin.com"},
+			{"href":"http://amazon.shimarin.com","link_text":"amazon.shimarin.com"},
+			{"href":"http://amazon-uk.shimarin.com","link_text":"amazon-uk.shimarin.com"},
+			{"href":"http://mixi.shimarin.com","link_text":"mixi.shimarin.com"}
+		]
+	}
+]
+

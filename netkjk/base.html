@@ -1,0 +1,13 @@
+{{define "title"}}{{if .title}}{{.title}} - {{end}}ネット乞食{{end}}
+{{define "content"}}
+<h2>{{.title}}</h2>
+<p>{{.description}}</p>
+{{if .done}}
+<p>獲得額: ￥{{.acquired}}</p>
+{{else if .goal}}
+<p>目標額: ￥{{.goal}}<br>
+獲得額: ￥{{.acquired}}</p>
+{{end}}
+{{template "details"}}
+<p><a href="./">一覧に戻る</a></p>
+{{end}}

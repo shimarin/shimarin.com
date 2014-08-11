@@ -1,0 +1,16 @@
+<html lang="ja" ng-app="MyApp">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular.min.js"></script>
+    <script src="/js/app.js"></script>
+    <title>{{template "title" .}}</title>
+  </head>
+  <body>
+    <div class="container">
+      {{template "content" .}}
+    </div>
+  </body>
+</html>

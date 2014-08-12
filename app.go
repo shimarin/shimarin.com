@@ -98,10 +98,6 @@ func main() {
 	var fcgi_enabled = flag.Bool("fcgi", false, "Enable fastcgi alongside http")
 	flag.Parse()
 
-	js := http.FileServer(http.Dir("js"))
-	http.Handle("/js/", http.StripPrefix("/js/", js))
-	http.Handle("/favicon.ico", file_server)
-	http.Handle("/robots.txt", file_server)
 	http.HandleFunc("/", handler)
 
 	wg := &sync.WaitGroup{}

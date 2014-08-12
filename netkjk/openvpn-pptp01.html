@@ -1,0 +1,22 @@
+{{define "details"}}
+<p>OpenVPNクライアントとPPTPクライアントが相互に通信できるような異種混合 VPNサーバをさくらVPSのようなグローバルIPアドレス持ちのサーバに作る方法を記事にします。Debian用です。お客様用に構築した時の手順をEvernoteにメモしてあったので、それをもとに書き起こします。</p>
+
+<p>手順に登場する主なファイルはこんなです。</p>
+
+<pre>
+/etc/network/interfaces 
+/etc/pptpd.conf
+/etc/ppp/options
+/etc/ppp/chap-secrets
+
+/etc/sysctl.conf
+/etc/iptables/rules/v4
+
+/etc/openvpn/openvpn.conf
+/etc/openvpn/ca.crt
+/etc/openvpn/dh1024.pem
+/etc/openvpn/server.crt
+/etc/openvpn/server.key
+/etc/openvpn/auth.txt
+</pre>
+{{end}}

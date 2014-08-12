@@ -1,7 +1,7 @@
 {{define "title"}}{{if .title}}{{.title}} - {{end}}ネット乞食{{end}}
 {{define "content"}}
 <p><a href="./"><span class="glyphicon glyphicon-arrow-left"></span> 一覧に戻る</a></p>
-<h1>{{.title}}</h1>
+<h1>{{.title}} <small>〜ネット乞食〜</small></h1>
 <p class="lead">{{.description}}</p>
 
 {{if .done}}
@@ -17,7 +17,9 @@
 <h2>詳細説明</h2>
 {{template "details"}}
 
-{{if not .done}}<h3>これをさせてみたい場合</h3><p>Amazonの <a href="http://www.amazon.co.jp/registry/wishlist/2YXA24GA8MONU?sort=universal-price" target="_blank">このウィッシュリスト<span class="glyphicon glyphicon-link"></span></a>から適当なものをお恵みください。お恵みの際は欲しいものリストから品物を送る際のメッセージに <strong>{{.code}}</strong> と書き添えてください。金額が「獲得額」に手動で加算され、目標額に達したらそれをやります（目標額は目安ですので、それに達していなくてもやる場合があります）。</p>
+{{if not .done}}<h3>これをさせてみたい場合</h3><p>Amazonの <a href="http://www.amazon.co.jp/registry/wishlist/2YXA24GA8MONU?sort=universal-price" target="_blank">このウィッシュリスト<span class="glyphicon glyphicon-link"></span></a><small>※</small>から適当なものをお恵みください。お恵みの際は欲しいものリストから品物を送る際のメッセージに <strong>{{.code}}</strong> と書き添えてください。金額が「獲得額」に<small>手動で</small>加算され、目標額に達したらそれをやります（目標額は目安ですので、それに達していなくてもやる場合があります）。</p>
+
+<p><small>ウィッシュリスト＝欲しいものリスト。リストにある品物をその人に誰でも買ってあげることが出来ます</small></p>
 
 <p>品物のご提供があった時は日時と金額をこのページに追記しますが、ご提供くださった方に関する情報は「公開可」とのお申し添えがない限り掲載いたしません。</p>{{end}}
 
@@ -45,4 +47,6 @@
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
 
 <p><a href="./"><span class="glyphicon glyphicon-arrow-left"></span> 一覧に戻る</a></p>
+
+<p>このサイトのプログラムは <a href="http://golang.org/">Go言語</a>で書かれています。</p>
 {{end}}

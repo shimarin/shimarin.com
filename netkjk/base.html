@@ -1,7 +1,9 @@
 {{define "title"}}{{if .title}}{{.title}} - {{end}}ネット乞食{{end}}
 {{define "content"}}
-<h2>{{.title}}</h2>
+<p><a href="./"><span class="glyphicon glyphicon-arrow-left"></span> 一覧に戻る</a></p>
+<h1>{{.title}}</h1>
 <p class="lead">{{.description}}</p>
+
 {{if .done}}
 <p>獲得額: ￥{{.acquired}}</p>
 {{else if .goal}}
@@ -9,10 +11,15 @@
 獲得額: ￥{{.acquired}}</p>
 {{end}}
 
-<h3>詳細説明</h3>
+<p><a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja">ツイート</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
+
+<h2>詳細説明</h2>
 {{template "details"}}
 
-{{if not .done}}<h3>これをさせてみたい場合</h3><p>Amazonの <a href="http://www.amazon.co.jp/registry/wishlist/2YXA24GA8MONU?sort=universal-price" target="_blank">このウィッシュリスト</a>から適当なものをお恵みください。お恵みの際は欲しいものリストから品物を送る際のメッセージに <strong>{{.code}}</strong> と書き添えてください。</p>{{end}}
+{{if not .done}}<h3>これをさせてみたい場合</h3><p>Amazonの <a href="http://www.amazon.co.jp/registry/wishlist/2YXA24GA8MONU?sort=universal-price" target="_blank">このウィッシュリスト<span class="glyphicon glyphicon-link"></span></a>から適当なものをお恵みください。お恵みの際は欲しいものリストから品物を送る際のメッセージに <strong>{{.code}}</strong> と書き添えてください。金額が「獲得額」に手動で加算され、目標額に達したらそれをやります（目標額は目安ですので、それに達していなくてもやる場合があります）。</p>
+
+<p>品物のご提供があった時は日時と金額をこのページに追記しますが、ご提供くださった方に関する情報は「公開可」とのお申し添えがない限り掲載いたしません。</p>{{end}}
 
 <h3>他にやること</h3>
 
@@ -34,5 +41,8 @@
   </tbody>
 </table>
 
-<p><a href="./">一覧に戻る</a></p>
+<p><a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja">ツイート</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
+
+<p><a href="./"><span class="glyphicon glyphicon-arrow-left"></span> 一覧に戻る</a></p>
 {{end}}

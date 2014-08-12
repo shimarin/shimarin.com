@@ -1,16 +1,38 @@
 {{define "title"}}{{if .title}}{{.title}} - {{end}}ネット乞食{{end}}
 {{define "content"}}
 <h2>{{.title}}</h2>
-<p>{{.description}}</p>
+<p class="lead">{{.description}}</p>
 {{if .done}}
 <p>獲得額: ￥{{.acquired}}</p>
 {{else if .goal}}
 <p>目標額: ￥{{.goal}}<br>
 獲得額: ￥{{.acquired}}</p>
 {{end}}
+
+<h3>詳細説明</h3>
 {{template "details"}}
 
-{{if not .done}}<p>Amazonの <a href="http://www.amazon.co.jp/registry/wishlist/2YXA24GA8MONU?sort=universal-price" target="_blank">このウィッシュリスト</a>から適当なものをお恵みください。お恵みの際は欲しいものリストから品物を送る際のメッセージに <strong>{{.code}}</strong> と書き添えてください。</p>{{end}}
+{{if not .done}}<h3>これをさせてみたい場合</h3><p>Amazonの <a href="http://www.amazon.co.jp/registry/wishlist/2YXA24GA8MONU?sort=universal-price" target="_blank">このウィッシュリスト</a>から適当なものをお恵みください。お恵みの際は欲しいものリストから品物を送る際のメッセージに <strong>{{.code}}</strong> と書き添えてください。</p>{{end}}
+
+<h3>他にやること</h3>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>最終更新日</th><th>題名</th><th>説明</th><th>獲得額/目標額<br>(めやす)</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{range $index, $page := pages}}{{if and (not .done) (ne .name $.name) }}
+    <tr>
+      <td class="text-nowrap">{{$page.last_update}}</td>
+      <td><a href="{{$page.name}}.html">{{$page.title}}</a></td>
+      <td>{{$page.description}}</td>
+      <td class="text-nowrap">￥{{$page.acquired}}/￥{{$page.goal}}</td>
+    </tr>
+    {{end}}{{end}}
+  </tbody>
+</table>
 
 <p><a href="./">一覧に戻る</a></p>
 {{end}}

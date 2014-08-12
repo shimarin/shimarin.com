@@ -1,5 +1,5 @@
 [
-    {"name":"redmine001", "code":"redmine", "last_update":"2014-08-12", "title":"Redmine 2.5.2", "description":"Walbrixの Redmine仮想アプライアンスを更新します。(現在 2.3.0)", "acquired":0, "goal":1000, "done":false},
-    {"name":"fluentd001", "code":"fluentd", "last_update":"2014-08-12", "title":"Fluentd 0.10.52", "description":"Walbrixの Fluentd仮想アプライアンスを更新します。(現在 0.10.47)", "acquired":0, "goal":1000, "done":false},
-    {"name":"juminzei001", "code":"juminzei", "last_update":"2014-08-12", "title":"住民税一期分", "description":"浮いた食費で住民税一期分(￥1,000）を納めてきます", "acquired":0, "goal":1000, "done":false}
+    {"name":"redmine01", "code":"redmine", "last_update":"2014-08-12", "title":"Redmine 2.5.2", "description":"Walbrixの Redmine仮想アプライアンスを更新します。(現在 2.3.0)", "acquired":0, "goal":1000, "done":false},
+    {"name":"fluentd01", "code":"fluentd", "last_update":"2014-08-12", "title":"Fluentd 0.10.52", "description":"Walbrixの Fluentd仮想アプライアンスを更新します。(現在 0.10.47)", "acquired":0, "goal":1000, "done":false},
+    {"name":"juminzei01", "code":"juminzei", "last_update":"2014-08-12", "title":"住民税一期分", "description":"浮いた食費で住民税一期分(￥1,000）を納めてきます", "acquired":0, "goal":1000, "done":false}
 ]

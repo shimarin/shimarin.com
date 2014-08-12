@@ -17,6 +17,7 @@
 </script>
     <script src="/js/app.js"></script>
     <title>{{template "title" .}}</title>
+    {{if .description}}<meta name="description" content="{{.description}}" >{{end}}
   </head>
   <body>
     <div class="container">

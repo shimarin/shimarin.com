@@ -2,5 +2,6 @@
     {"name":"redmine01", "code":"redmine", "last_update":"2014-08-12", "title":"Redmine 2.5.2", "description":"Walbrixの Redmine仮想アプライアンスを更新します。(現在 2.3.0)", "acquired":0, "goal":1000, "done":false},
     {"name":"fluentd01", "code":"fluentd", "last_update":"2014-08-12", "title":"Fluentd 0.10.52", "description":"Walbrixの Fluentd仮想アプライアンスを更新します。(現在 0.10.47)", "acquired":0, "goal":1000, "done":false},
     {"name":"angularjs01", "code":"angularjs", "last_update":"2014-08-12", "title":"AngularJSの記事をひとつ書く", "description":"たまに会社のブログで AngularJS関係のエントリを書いてるのですが、それをひとつ増やします", "acquired":0, "goal":1000, "done":false},
+    {"name":"enganime01", "code":"enganime", "last_update":"2014-08-12", "title":"「英語でアニメ観ようず」の記事をひとつ書く", "description":"日本アニメの英語吹き替え版DVDから適当なシーンを拾って解説するブログの記事をひとつ書きます", "acquired":0, "goal":1000, "done":false},
     {"name":"juminzei01", "code":"juminzei", "last_update":"2014-08-12", "title":"住民税一期分", "description":"浮いた食費で住民税一期分(￥1,000）を納めてきます", "acquired":0, "goal":1000, "done":false}
 ]

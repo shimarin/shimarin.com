@@ -1,6 +1,7 @@
 {{define "title"}}{{if .title}}{{.title}} - {{end}}ネット乞食{{end}}
 {{define "content"}}
 <p><a href="./"><span class="glyphicon glyphicon-arrow-left"></span> 一覧に戻る</a></p>
+<div ng-controller="NetKjkController">
 <h1>{{.title}} <small>〜ネット乞食〜</small></h1>
 <p class="lead">{{.description}}</p>
 
@@ -10,6 +11,8 @@
 <p>目標額: ￥{{.goal}}<br>
 獲得額: ￥{{.acquired}}</p>
 {{end}}
+
+<p><a href="" ng-click="about()"><span class="glyphicon glyphicon-question-sign"></span>ネット乞食とは？</a></p>
 
 <p><a href="https://twitter.com/share" class="twitter-share-button" data-text="{{.title}}: {{.description}} - ネット乞食" data-lang="ja" data-hashtags="netkjk">ツイート</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
@@ -51,5 +54,22 @@
 <p><a href="./"><span class="glyphicon glyphicon-arrow-left"></span> 一覧に戻る</a></p>
 
 <p>このサイトのプログラムは <a href="http://golang.org/">Go言語</a>で書かれています。(<a href="https://github.com/shimarin/shimarin.com/blob/master/app.go">ソース</a>)</p>
+</div>
 
+<script type="text/ng-template" id="about.html">
+  <div class="modal-header">
+    <button type="button" class="close" ng-click="$dismiss()" aria-hidden="true">×</button>
+    <h3>ネット乞食とは？</h3>
+  </div>
+  <div class="modal-body">
+    <p>私、自分の会社を運営しているのですが、社の売上はほとんど事務所の維持費や研究開発費、バイトの給料や交通費などに消えてしまうため、代表である私の給料は月額 85,000円しか出ていません。年収にするとだいたい100万円です。その金額で単純に私をカテゴライズすると「貧困」ということになります。東京には住めないので電車で2時間かかる地方の、駅からさらに徒歩1時間のところに車も持たずに暮らしています。昨年シリコンバレーに1ヶ月半ほど暮らした時も、激安トルティーヤにチーズだけ乗せてレンチンしたものを食べてしのいでいました。</p>
+
+    <p>というわけで日々の食料にも困ることがたまにある有様なので、生きるための物資を支援していただけたらこれをしますというリストをまとめて物乞いをしてみることにしました。支援する物資はAmazonのウィッシュリストから選んで頂けます。</p>
+
+    <p>それぞれの「やること」には目標額が設定されており、支援物資の総額がそれに達するごとに取り組まれます。達しなくても取り組むかもしれません。支援物資を送っていただく際に、どの「やること」に対する支援なのか指定いただけます。指定がない場合は適当なものに割り振ります。</p>
+  </div>
+  <div class="modal-footer">
+    <button class="btn btn-primary" ng-click="$close()">わかった、もういい</button>
+  </div>
+</script>
 {{end}}

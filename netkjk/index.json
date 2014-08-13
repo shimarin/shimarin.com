@@ -1,5 +1,6 @@
 [
     {"name":"gitbucket01", "code":"gitbucket", "last_update":"2014-08-13", "title":"GitBucket 2.2.1", "description":"Walbrixの GitBucket仮想アプライアンスを更新します。(現在2.0)", "acquired":0, "goal":1000, "done":false},
+    {"name":"zabbix01", "code":"zabbix", "last_update":"2014-08-13", "title":"Zabbix 2.2.5", "description":"Walbrixの Zabbix仮想アプライアンスを更新します。(現在2.2.0)", "acquired":0, "goal":1000, "done":false},
     {"name":"owncloud01", "code":"owncloud", "last_update":"2014-08-12", "title":"ownCloud 7.0.1", "description":"Walbrixの ownCloud仮想アプライアンスを更新します。(現在 6.0.0a)", "acquired":0, "goal":1000, "done":false},
     {"name":"redmine01", "code":"redmine", "last_update":"2014-08-12", "title":"Redmine 2.5.2", "description":"Walbrixの Redmine仮想アプライアンスを更新します。(現在 2.3.0)", "acquired":0, "goal":1000, "done":false},
     {"name":"fluentd01", "code":"fluentd", "last_update":"2014-08-12", "title":"Fluentd 0.10.52", "description":"Walbrixの Fluentd仮想アプライアンスを更新します。(現在 0.10.47)", "acquired":0, "goal":1000, "done":false},

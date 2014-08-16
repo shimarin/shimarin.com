@@ -1,4 +1,5 @@
 [ 
+    {"name":"danbooru01", "code":"danbooru", "last_update":"2014-08-17", "title":"Danbooru 2.57.2", "description":"Walbrixの Danbooru仮想アプライアンスを更新します。(現在2012年10月版)", "acquired":0, "goal":1000, "done":false},
     {"name":"howtosend", "code":"howtosend", "last_update":"2014-08-16", "title":"お恵みの送り方を画像で解説する", "description":"お恵みの送り方について何も説明がなくて不親切なのでAmazonのスクリーンショットなどで説明します", "acquired":0, "goal":1000, "done":false},
     {"name":"otoiawase01", "code":"otoiawase", "last_update":"2014-08-16", "title":"簡単設置お問い合わせフォームの紹介ページ作成", "description":"PHPとAngularJS、Bootstrapでできた簡単設置でレスポンシブなお問い合わせフォームについてのページを作成します", "acquired":0, "goal":1000, "done":false},
     {"name":"kandan01", "code":"kandan", "last_update":"2014-08-14", "title":"Kandan仮想アプライアンスの作成", "description":"HipChatやChatWorkのようなチャットサービスのオープンソース実装である Kandanの Walbrix用仮想アプライアンスを作成します", "acquired":0, "goal":1000, "done":false},

@@ -1,5 +1,6 @@
 [ 
-    {"name":"otoiawase01", "code":"otoiawase", "last_update":"2014-08-15", "title":"簡単設置お問い合わせフォームの紹介ページ作成", "description":"PHPとAngularJS、Bootstrapでできた簡単設置でレスポンシブなお問い合わせフォームについてのページを作成します", "acquired":0, "goal":1000, "done":false},
+    {"name":"howtosend", "code":"howtosend", "last_update":"2014-08-16", "title":"お恵みの送り方を画像で解説する", "description":"お恵みの送り方について何も説明がなくて不親切なのでAmazonのスクリーンショットなどで説明します", "acquired":0, "goal":1000, "done":false},
+    {"name":"otoiawase01", "code":"otoiawase", "last_update":"2014-08-16", "title":"簡単設置お問い合わせフォームの紹介ページ作成", "description":"PHPとAngularJS、Bootstrapでできた簡単設置でレスポンシブなお問い合わせフォームについてのページを作成します", "acquired":0, "goal":1000, "done":false},
     {"name":"kandan01", "code":"kandan", "last_update":"2014-08-14", "title":"Kandan仮想アプライアンスの作成", "description":"HipChatやChatWorkのようなチャットサービスのオープンソース実装である Kandanの Walbrix用仮想アプライアンスを作成します", "acquired":0, "goal":1000, "done":false},
    {"name":"wbport01", "code":"wbport", "last_update":"2014-08-13", "title":"WBPORT.comの会員登録機能", "description":"WBPORT.comのサインアップ（会員登録）機能を作ります", "acquired":0, "goal":1000, "done":false},
     {"name":"gitbucket01", "code":"gitbucket", "last_update":"2014-08-13", "title":"GitBucket 2.2.1", "description":"Walbrixの GitBucket仮想アプライアンスを更新します。(現在2.0)", "acquired":0, "goal":1000, "done":false},

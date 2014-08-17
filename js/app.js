@@ -12,8 +12,8 @@ angular.module("MyApp", ["ngResource", "ui.bootstrap", "angulartics", "angularti
     }
 }])
 .controller("OptoutController", ["$scope", function($scope) {
-    var _gaq = _gaq || []
-    _gaq.push(['_setVar', 'no_analytics']);
+    window._gaq = window._gaq || []
+    window._gaq.push(['_setVar', 'no_analytics']);
     // TBD
     // https://productforums.google.com/forum/#!topic/analytics/ftLKh-fsUws
 }])

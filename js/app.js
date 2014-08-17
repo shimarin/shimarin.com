@@ -1,6 +1,7 @@
 angular.module("MyApp", ["ui.bootstrap", "angulartics", "angulartics.google.analytics"])
-.controller("NetKjkController", ["$scope", "$modal", function($scope, $modal) {
+.controller("NetKjkController", ["$scope", "$modal", "$analytics", function($scope, $modal, $analytics) {
     $scope.about = function() {
+	$analytics.eventTrack("click", {category:"button", label:"AboutNetKjk"});
         $modal.open({templateUrl:"about.html"});
     }
 }])

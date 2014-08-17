@@ -105,8 +105,9 @@ func wikipediaHandler(w http.ResponseWriter, r *http.Request) {
 	}
 	lang := args[1]
 	name := args[2]
-	doc, _ := goquery.NewDocument("http://" + lang + ".wikipedia.org/wiki/" + name)
-	js, err := json.Marshal(map[string]interface{}{"summary":doc.Find("div#mw-content-text p").First().Text()})
+	url := "http://" + lang + ".wikipedia.org/wiki/" + name
+	doc, _ := goquery.NewDocument(url)
+	js, err := json.Marshal(map[string]interface{}{"url":url, "title":doc.Find("h1#firstHeading").First().Text(), "summary":doc.Find("div#mw-content-text p").First().Text()})
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return

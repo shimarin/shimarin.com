@@ -14,7 +14,9 @@
 
 <p><a href="" ng-click="about()"><span class="glyphicon glyphicon-question-sign"></span>ネット乞食とは？</a></p>
 
-<p><a href="https://twitter.com/share" class="twitter-share-button" data-text="{{.title}}: {{.description}} - ネット乞食" data-lang="ja" data-hashtags="netkjk">ツイート</a>
+
+
+<p><a href="https://twitter.com/share" class="twitter-share-button" data-text="{{if .done}}【完了】{{else if ge .acquired .goal}}【目標額達成】{{end}}{{.title}}: {{.description}} - ネット乞食" data-lang="ja" data-hashtags="netkjk">ツイート</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
 
 <h2>詳細説明</h2>
@@ -57,7 +59,7 @@
 </table>
 </div>
 
-<p><a href="https://twitter.com/share" class="twitter-share-button" data-text="{{.title}}: {{.description}} - ネット乞食" data-lang="ja" data-hashtags="netkjk">ツイート</a>
+<p><a href="https://twitter.com/share" class="twitter-share-button" data-text="{{if .done}}【完了】{{else if ge .acquired .goal}}【目標額達成】{{end}}{{.title}}: {{.description}} - ネット乞食" data-lang="ja" data-hashtags="netkjk">ツイート</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
 
  <div id="disqus_thread"></div>

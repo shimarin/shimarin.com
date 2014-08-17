@@ -20,11 +20,19 @@
 <h2>詳細説明</h2>
 {{template "details"}}
 
-{{if not .done}}<h3>お恵みいただける場合</h3><p>Amazonの <a href="http://www.amazon.co.jp/registry/wishlist/2YXA24GA8MONU?sort=universal-price" analytics-on="click" analytics-event="Wishlist" target="_blank">このウィッシュリスト<span class="glyphicon glyphicon-link"></span></a><small>※</small>から適当なものをお恵みください。お恵みの際は欲しいものリストから品物を送る際のギフトメッセージ(注文の最終確認画面から「ギフト設定」で設定できます)に <strong>{{.code}}</strong> と書き添えてください。金額が「獲得額」に<small>手動で</small>加算され、目標額に達したらそれをやります（目標額は目安ですので、それに達していなくてもやる場合があります）。</p>
+{{if not .done}}
+<h3>お恵みいただける場合</h3>
+<p>方法はふたつあります。</p>
+<ul>
+  <li>支援する物資を<a href="http://www.amazon.co.jp/registry/wishlist/2YXA24GA8MONU?sort=universal-price" analytics-on="click" analytics-event="Wishlist" target="_blank">Amazonのウィッシュリスト(ほしいものリスト)</a>から選んで送付する</li>
+  <li><a href="https://www.amazon.co.jp/gp/product/B004N3APGO" target="_blank">Amaznoギフト券</a>をメールアドレス <a href="mailto:netkjk01@shimarin.com">netkjk01@shimarin.com</a> へ送る</li>
+</ul>
 
-<p><small>ウィッシュリスト＝欲しいものリスト。リストにある品物をその人に誰でも買ってあげることが出来ます</small></p>
+<p>品物をお恵みの際はギフトメッセージ(注文の最終確認画面から「ギフト設定」で設定できます)に、Amazonギフト券をお恵みの場合はメッセージに <strong>{{.code}}</strong> と書き添えてください。金額が「獲得額」に<small>手動で</small>加算され、目標額に達したらそれをやります（目標額は目安ですので、それに達していなくてもやる場合があります）。</p>
 
-<p>品物のご提供があった時は日時と金額をこのページに追記しますが、ご提供くださった方に関する情報は「公開可」とのお申し添えがない限り掲載いたしません。</p>{{end}}
+<p><small>ウィッシュリスト＝欲しいものリスト。リストにある品物をその人に誰でも買ってあげることが出来ます<br>Amazonギフト券＝Amazonで使用できる商品券です。今は大体なんでも Amazonで買えるので日本円並に強力な通貨といえます</small></p>
+
+<p>おめぐみ頂いた際には日時と金額をこのページに追記しますが、ご提供くださった方に関する情報は「公開可」とのお申し添えがない限り掲載いたしません。</p>{{end}}
 
 <h3>他にやること</h3>
 

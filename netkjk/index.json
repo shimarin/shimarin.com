@@ -1,5 +1,5 @@
 [ 
-    {"name":"danime01", "code":"danime", "last_update":"2014-08-17", "title":"dアニメストアに再加入する", "description":"さる事情で解約してしまったdアニメストアに再度加入します", "acquired":0, "goal":500, "done":false},
+    {"name":"danime01", "code":"danime", "last_update":"2014-08-17", "title":"dアニメストアに再加入する", "description":"さる事情で解約してしまったdアニメストア(月額400円+税)に再度加入します", "acquired":0, "goal":500, "done":false},
     {"name":"angularjs01", "code":"angularjs", "last_update":"2014-08-17", "title":"【更新】Angularticsの記事", "description":"Google Analytics(など)をAngularJSから利用するAngularticsについての記事を会社のブログに書きます", "acquired":0, "goal":1000, "done":false},
     {"name":"shimmie01", "code":"shimmie", "last_update":"2014-08-17", "title":"Shimmie仮想アプライアンスの作成", "description":"オープンソースのPixiv的な画像掲示板 Shimmieの Walbrix用仮想アプライアンスを作成します", "acquired":0, "goal":1000, "done":false},
     {"name":"danbooru01", "code":"danbooru", "last_update":"2014-08-17", "title":"Danbooru 2.57.2", "description":"Walbrixの Danbooru仮想アプライアンスを更新します。(現在2012年10月版)", "acquired":0, "goal":1000, "done":false},

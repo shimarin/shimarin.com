@@ -15,6 +15,7 @@ import (
 	"strings"
 	"regexp"
 	"path/filepath"
+	"github.com/PuerkitoBio/goquery"
 )
 
 var file_server = http.FileServer(http.Dir("."))
@@ -95,10 +96,31 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	file_server.ServeHTTP(w, r)
 }
 
+func wikipediaHandler(w http.ResponseWriter, r *http.Request) {
+	args := strings.SplitN(r.URL.Path[1:], "/", 3)
+	if len(args) < 3 {
+		w.WriteHeader(404)
+		fmt.Fprint(w, "404 not found")
+		return
+	}
+	lang := args[1]
+	name := args[2]
+	doc, _ := goquery.NewDocument("http://" + lang + ".wikipedia.org/wiki/" + name)
+	js, err := json.Marshal(map[string]interface{}{"summary":doc.Find("div#mw-content-text p").First().Text()})
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+	// else
+	w.Header().Set("Content-Type", "application/json")
+	w.Write(js)
+}
+
 func main() {
 	var fcgi_enabled = flag.Bool("fcgi", false, "Enable fastcgi alongside http")
 	flag.Parse()
 
+	http.HandleFunc("/wikipedia/", wikipediaHandler)
 	http.HandleFunc("/", handler)
 
 	wg := &sync.WaitGroup{}

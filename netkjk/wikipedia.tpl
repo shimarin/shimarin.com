@@ -1,6 +1,6 @@
 <div class="modal-header">
   <button type="button" class="close" ng-click="$dismiss()" aria-hidden="true">×</button>
-  <h3>{{wikipedia.title}} <small>Wikipediaより</small></h3>
+  <h3><span class="glyphicon glyphicon-question-sign"></span> {{wikipedia.title}} <small>Wikipediaより</small></h3>
 </div>
 <div class="modal-body">
   {{wikipedia.summary}}

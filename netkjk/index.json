@@ -1,10 +1,10 @@
 [
-    {"name":"owncloud01", "code":"owncloud", "last_update":"2014-08-18", "title":"ownCloud 7.0.1", "description":"Walbrixの ownCloud仮想アプライアンスを更新します。(現在 6.0.0a)", "acquired":1000, "goal":1000, "done":false},
+    {"name":"owncloud01", "code":"owncloud", "last_update":"2014-08-18", "title":"ownCloud 7.0.1", "description":"Walbrixの ownCloud仮想アプライアンスを更新します。(現在 6.0.0a)", "acquired":1000, "goal":1000, "done":true},
     {"name":"wordpress01", "code":"wordpress", "last_update":"2014-08-18", "title":"WordPress 3.9.2", "description":"Walbrixの WordPress仮想アプライアンスを更新します。(現在3.5.1)", "acquired":1000, "goal":1000, "done":false},
     {"name":"movabletype01", "code":"movabletype", "last_update":"2014-08-18", "title":"Movable Type(OpenSource) 5.2.10", "description":"オープンソース版Movable Typeの WordPress仮想アプライアンスを更新します。(現在5.2.3)", "acquired":0, "goal":1000, "done":false},
     {"name":"wikipedia01", "code":"wikipedia", "last_update":"2014-08-17", "title":"ウィキメディア財団に寄付する", "description":"誰かが500円分の支援をしてくれたらWikipediaを運営しているウィキメディア財団に1000円寄付します", "acquired":500, "goal":500, "done":true},
     {"name":"danime01", "code":"danime", "last_update":"2014-08-17", "title":"dアニメストアに再加入する", "description":"さる事情で解約してしまったdアニメストア(月額400円+税)に再度加入します", "acquired":0, "goal":500, "done":false},
-    {"name":"angularjs01", "code":"angularjs", "last_update":"2014-08-17", "title":"【更新】Angularticsの記事", "description":"Google Analytics(など)をAngularJSから利用するAngularticsについての記事を会社のブログに書きます", "acquired":0, "goal":1000, "done":false},
+    {"name":"angularjs01", "code":"angularjs", "last_update":"2014-08-17", "title":"Angularticsの記事", "description":"Google Analytics(など)をAngularJSから利用するAngularticsについての記事を会社のブログに書きます", "acquired":0, "goal":1000, "done":false},
     {"name":"shimmie01", "code":"shimmie", "last_update":"2014-08-17", "title":"Shimmie仮想アプライアンスの作成", "description":"オープンソースのPixiv的な画像掲示板 Shimmieの Walbrix用仮想アプライアンスを作成します", "acquired":0, "goal":1000, "done":false},
     {"name":"danbooru01", "code":"danbooru", "last_update":"2014-08-17", "title":"Danbooru 2.57.2", "description":"Walbrixの Danbooru仮想アプライアンスを更新します。(現在2012年10月版)", "acquired":0, "goal":1000, "done":false},
     {"name":"howtosend", "code":"howtosend", "last_update":"2014-08-16", "title":"お恵みの送り方を画像で解説する", "description":"お恵みの送り方について何も説明がなくて不親切なのでAmazonのスクリーンショットなどで説明します", "acquired":0, "goal":1000, "done":false},

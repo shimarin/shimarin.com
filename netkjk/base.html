@@ -14,8 +14,6 @@
 
 <p><a href="" ng-click="about()"><span class="glyphicon glyphicon-question-sign"></span>ネット乞食とは？</a></p>
 
-
-
 <p><a href="https://twitter.com/share" class="twitter-share-button" data-text="{{if .done}}【完了】{{else if ge .acquired .goal}}【目標額達成】{{end}}{{.title}}: {{.description}} - ネット乞食" data-lang="ja" data-hashtags="netkjk">ツイート</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
 
@@ -32,9 +30,11 @@
 
 <p>品物をお恵みの際はギフトメッセージ(注文の最終確認画面から「ギフト設定」で設定できます)に、Amazonギフト券をお恵みの場合はメッセージに <strong>{{.code}}</strong> と書き添えてください。金額が「獲得額」に<small>手動で</small>加算され、目標額に達したらそれをやります（目標額は目安ですので、それに達していなくてもやる場合があります）。</p>
 
+<p>あくまで慈悲深いお恵みという位置づけなので、実行される時期や内容の詳細について保証はありません。確実に何かをさせたい場合は仕事として<a href="http://www.walbrix.com/jp/" target="_blank">会社</a>にご依頼ください。まずはそれなりのお見積りをさせていただきます。</p>
+
 <p><small>ウィッシュリスト＝欲しいものリスト。リストにある品物をその人に誰でも買ってあげることが出来ます<br>Amazonギフト券＝Amazonで使用できる商品券です。今は大体なんでも Amazonで買えるので日本円並に強力な通貨といえます</small></p>
 
-<p>おめぐみ頂いた際には日時と金額をこのページに追記しますが、ご提供くださった方に関する情報は「公開可」とのお申し添えがない限り掲載いたしません。</p>
+<p>お恵み頂いた際には日付と金額をこのページに追記しますが、ご提供くださった方に関する情報は「公開可」とのお申し添えがない限り掲載いたしません。</p>
 {{end}}
 
 <h3>他にやれること</h3>
@@ -79,7 +79,7 @@
     
 <p><a href="./"><span class="glyphicon glyphicon-arrow-left"></span> 一覧に戻る</a></p>
 
-<p>このサイトのプログラムは <a href="http://golang.org/">Go言語</a>で書かれています。(<a href="https://github.com/shimarin/shimarin.com/blob/master/app.go">ソース</a>)</p>
+<p>このサイトのプログラムは <a href="http://ja.wikipedia.org/wiki/Go_(%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9E)" target="_blank">Go言語</a>で書かれています。(<a href="https://github.com/shimarin/shimarin.com/blob/master/app.go">ソース</a>)</p>
 </div>
 <script type="text/ng-template" id="about.html">
   <div class="modal-header">

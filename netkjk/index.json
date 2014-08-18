@@ -1,7 +1,7 @@
 [
     {"name":"owncloud01", "code":"owncloud", "last_update":"2014-08-18", "title":"ownCloud 7.0.1", "description":"Walbrixの ownCloud仮想アプライアンスを更新します。(現在 6.0.0a)", "acquired":1000, "goal":1000, "done":false},
     {"name":"wordpress01", "code":"wordpress", "last_update":"2014-08-18", "title":"WordPress 3.9.2", "description":"Walbrixの WordPress仮想アプライアンスを更新します。(現在3.5.1)", "acquired":1000, "goal":1000, "done":false},
-    {"name":"movabletype01", "code":"movabletype", "last_update":"2014-08-18", "title":"Movable Type(OpenSource) 5.2.10", "description":"オープンソース版Movable Typeの WordPress仮想アプライアンスを更新します。(現在5.2.3)", "acquired":0, "goal":1000, "done":false},
+    {"name":"movabletype01", "code":"movabletype", "last_update":"2014-08-18", "title":"Movable Type(OpenSource) 5.2.10", "description":"オープンソース版Movable Typeの仮想アプライアンスを更新します。(現在5.2.3)", "acquired":0, "goal":1000, "done":false},
     {"name":"wikipedia01", "code":"wikipedia", "last_update":"2014-08-17", "title":"ウィキメディア財団に寄付する", "description":"誰かが500円分の支援をしてくれたらWikipediaを運営しているウィキメディア財団に1000円寄付します", "acquired":500, "goal":500, "done":true},
     {"name":"danime01", "code":"danime", "last_update":"2014-08-17", "title":"dアニメストアに再加入する", "description":"さる事情で解約してしまったdアニメストア(月額400円+税)に再度加入します", "acquired":0, "goal":500, "done":false},
     {"name":"angularjs01", "code":"angularjs", "last_update":"2014-08-17", "title":"【更新】Angularticsの記事", "description":"Google Analytics(など)をAngularJSから利用するAngularticsについての記事を会社のブログに書きます", "acquired":0, "goal":1000, "done":false},

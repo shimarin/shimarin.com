@@ -24,7 +24,7 @@
 
 <p>それぞれの「やること」には目標額が設定されており、支援物資の総額がそれに達するごとに取り組まれます。達しなくても取り組むかもしれません。支援物資を送っていただく際に、どの「やること」に対する支援なのか指定いただけます。指定がない場合は適当なものに割り振ります。</p>
 
-<h3>これからやること</h3>
+<h3>やれること</h3>
 
 <div class="table-responsive">
 <table class="table">
@@ -34,7 +34,7 @@
     </tr>
   </thead>
   <tbody>
-    {{range $index, $page := pages}}{{if not $page.done}}
+    {{range $index, $page := pages}}{{if and (not $page.done) (lt $page.acquired $page.goal) }}
     <tr>
       <td class="text-nowrap">{{$page.last_update}}</td>
       <td><a href="{{$page.name}}.html">{{$page.title}}</a></td>
@@ -45,6 +45,29 @@
   </tbody>
 </table>
 </div>
+
+<h3>やること</h3>
+
+<div class="table-responsive">
+<table class="table">
+  <thead>
+    <tr>
+      <th>最終更新日</th><th>題名</th><th>説明</th><th>獲得額/目標額<br>(めやす)</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{range $index, $page := pages}}{{if and (not $page.done) (ge $page.acquired $page.goal) }}
+    <tr>
+      <td class="text-nowrap">{{$page.last_update}}</td>
+      <td><a href="{{$page.name}}.html">{{$page.title}}</a></td>
+      <td>{{$page.description}}</td>
+      <td class="text-nowrap">￥{{$page.acquired}}/￥{{$page.goal}}</td>
+    </tr>
+    {{end}}{{end}}
+  </tbody>
+</table>
+</div>
+
 
 <h3>やりおわったこと</h3>
 

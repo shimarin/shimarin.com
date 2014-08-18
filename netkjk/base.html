@@ -20,7 +20,7 @@
 <h2>詳細説明</h2>
 {{template "details"}}
 
-{{if not .done}}
+{{if and (not .done) (lt .acquired .goal)}}
 <h3>お恵みいただける場合</h3>
 <p>方法はふたつあります。</p>
 <ul>
@@ -37,7 +37,7 @@
 <p>お恵み頂いた際には日付と金額をこのページに追記しますが、ご提供くださった方に関する情報は「公開可」とのお申し添えがない限り掲載いたしません。</p>
 {{end}}
 
-<h3>他にやること</h3>
+<h3>他にやれること</h3>
 
 <div class="table-responsive">
 <table class="table">
@@ -47,7 +47,7 @@
     </tr>
   </thead>
   <tbody>
-    {{range $index, $page := pages}}{{if and (not .done) (ne .name $.name) }}
+    {{range $index, $page := pages}}{{if and (not .done) (ne .name $.name) (lt .acquired .goal) }}
     <tr>
       <td class="text-nowrap">{{$page.last_update}}</td>
       <td><a href="{{$page.name}}.html">{{$page.title}}</a></td>

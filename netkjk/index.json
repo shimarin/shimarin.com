@@ -1,4 +1,5 @@
 [
+    {"name":"vtigercrm01", "code":"vtigercrm", "last_update":"2014-08-19", "title":"vtiger CRM 6.0", "description":"Walbrix用の vtiger CRM仮想アプライアンスを作成します", "acquired":0, "goal":1000, "done":false},
     {"name":"eccube01", "code":"eccube", "last_update":"2014-08-18", "title":"EC-CUBE 2.13.2", "description":"Walbrix用の EC-CUBE仮想アプライアンスを最新版に更新します(現在2.12.3)", "acquired":0, "goal":1000, "done":false},
     {"name":"owncloud01", "code":"owncloud", "last_update":"2014-08-18", "title":"ownCloud 7.0.1", "description":"Walbrixの ownCloud仮想アプライアンスを更新します。(現在 6.0.0a)", "acquired":1000, "goal":1000, "done":true},
     {"name":"wordpress01", "code":"wordpress", "last_update":"2014-08-18", "title":"WordPress 3.9.2", "description":"Walbrixの WordPress仮想アプライアンスを更新します。(現在3.5.1)", "acquired":1000, "goal":1000, "done":false},

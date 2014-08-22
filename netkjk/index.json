@@ -1,4 +1,5 @@
 [
+    {"name":"juminzei01", "code":"juminzei", "last_update":"2014-08-12", "title":"住民税一期分", "description":"浮いた食費で住民税一期分(￥1,000）を納めてきます", "acquired":624, "goal":1000, "done":false},
     {"name":"vtigercrm01", "code":"vtigercrm", "last_update":"2014-08-19", "title":"vtiger CRM 6.0", "description":"Walbrix用の vtiger CRM仮想アプライアンスを作成します", "acquired":1000, "goal":1000, "done":false},
     {"name":"zabbix01", "code":"zabbix", "last_update":"2014-08-13", "title":"Zabbix 2.2.5", "description":"Walbrixの Zabbix仮想アプライアンスを更新します。(現在2.2.0)", "acquired":1000, "goal":1000, "done":false},
     {"name":"eccube01", "code":"eccube", "last_update":"2014-08-18", "title":"EC-CUBE 2.13.2", "description":"Walbrix用の EC-CUBE仮想アプライアンスを最新版に更新します(現在2.12.3)", "acquired":0, "goal":1000, "done":false},
@@ -18,6 +19,5 @@
     {"name":"redmine01", "code":"redmine", "last_update":"2014-08-12", "title":"Redmine 2.5.2", "description":"Walbrixの Redmine仮想アプライアンスを更新します。(現在 2.3.0)", "acquired":0, "goal":1000, "done":false},
     {"name":"fluentd01", "code":"fluentd", "last_update":"2014-08-12", "title":"Fluentd 0.10.52", "description":"Walbrixの Fluentd仮想アプライアンスを更新します。(現在 0.10.47)", "acquired":0, "goal":1000, "done":false},
     {"name":"enganime01", "code":"enganime", "last_update":"2014-08-12", "title":"「英語でアニメ観ようず」の記事", "description":"日本アニメの英語吹き替え版DVDから適当なシーンを拾って解説するブログの記事をひとつ書きます", "acquired":0, "goal":1000, "done":false},
-    {"name":"openvpn-pptp01", "code":"openvpn-pptp", "last_update":"2014-08-12", "title":"異種VPN統合に関する記事", "description":"さくらVPSなどで、OpenVPN(L2)とPPTPを同一の仮想ネットワークに接続する例の記事を書きます", "acquired":0, "goal":1000, "done":false},
-    {"name":"juminzei01", "code":"juminzei", "last_update":"2014-08-12", "title":"住民税一期分", "description":"浮いた食費で住民税一期分(￥1,000）を納めてきます", "acquired":0, "goal":1000, "done":false}
+    {"name":"openvpn-pptp01", "code":"openvpn-pptp", "last_update":"2014-08-12", "title":"異種VPN統合に関する記事", "description":"さくらVPSなどで、OpenVPN(L2)とPPTPを同一の仮想ネットワークに接続する例の記事を書きます", "acquired":0, "goal":1000, "done":false}
 ]

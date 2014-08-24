@@ -14,7 +14,7 @@
 
 <p><a href="" ng-click="about()"><span class="glyphicon glyphicon-question-sign"></span>ネット乞食とは？</a></p>
 
-<p><a href="https://twitter.com/share" class="twitter-share-button" data-text="{{if .done}}【完了】{{else if ge .acquired .goal}}【目標額達成】{{end}}{{.title}}: {{.description}} - ネット乞食" data-lang="ja" data-hashtags="netkjk">ツイート</a>
+<p><a href="https://twitter.com/share" class="twitter-share-button" data-text="{{if .done}}【完了】{{else if ge .acquired .goal}}【目標額達成】{{else if gt .acquired .0 }}【獲得額￥{{.acquired}}】{{end}}{{.title}}: {{.description}} - ネット乞食" data-lang="ja" data-hashtags="netkjk">ツイート</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
 
 <h2>詳細説明</h2>
@@ -27,6 +27,8 @@
   <li>支援する物資を<a href="http://www.amazon.co.jp/registry/wishlist/2YXA24GA8MONU?sort=universal-price" analytics-on="click" analytics-event="Wishlist" target="_blank">Amazonのウィッシュリスト(ほしいものリスト)</a>から選んで送付する</li>
   <li><a href="https://www.amazon.co.jp/gp/product/B004N3APGO" target="_blank">Amaznoギフト券</a>をメールアドレス <a href="mailto:netkjk01@shimarin.com">netkjk01@shimarin.com</a> へ送る</li>
 </ul>
+
+<p><small>メールアドレスは Amazonギフト券受信専用です。異なるご用件のメールを送信された場合はサイトへのご意見として掲載させて頂く場合がありますのであらかじめご了承ください。</small></p>
 
 <p>品物をお恵みの際はギフトメッセージ(注文の最終確認画面から「ギフト設定」で設定できます)に、Amazonギフト券をお恵みの場合はメッセージに <strong>{{.code}}</strong> と書き添えてください。金額が「獲得額」に<small>手動で</small>加算され、目標額に達したらそれをやります（目標額は目安ですので、それに達していなくてもやる場合があります）。</p>
 
@@ -59,7 +61,7 @@
 </table>
 </div>
 
-<p><a href="https://twitter.com/share" class="twitter-share-button" data-text="{{if .done}}【完了】{{else if ge .acquired .goal}}【目標額達成】{{end}}{{.title}}: {{.description}} - ネット乞食" data-lang="ja" data-hashtags="netkjk">ツイート</a>
+<p><a href="https://twitter.com/share" class="twitter-share-button" data-text="{{if .done}}【完了】{{else if ge .acquired .goal}}【目標額達成】{{else if gt .acquired .0 }}【獲得額￥{{.acquired}}】{{end}}{{.title}}: {{.description}} - ネット乞食" data-lang="ja" data-hashtags="netkjk">ツイート</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
 
  <div id="disqus_thread"></div>

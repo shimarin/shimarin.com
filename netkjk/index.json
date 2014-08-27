@@ -1,4 +1,5 @@
 [
+    {"name":"viral01", "code":"viral", "last_update":"2014-08-27", "title":"クソバイラル警告サービスの開発", "description":"クソバイラルのリンクを Twitterでシェアすると警告するサービスを開発します", "acquired":0, "goal":1000, "done":false},
     {"name":"linux01", "code":"linux-intel-iommu", "last_update":"2014-08-25", "title":"intel_iommu=offの記事", "description":"新しいマザーボードに挿したPCIのNICが Linuxで正常動作しない場合の対策を記事にします", "acquired":0, "goal":500, "done":false},
     {"name":"angularjs02", "code":"angular-fileupload", "last_update":"2014-08-25", "title":"angular-file-uploadの記事", "description":"AngularJSでファイルアップロード機能を実現するためのディレクティブを紹介する記事を会社のブログに書きます", "acquired":0, "goal":1000, "done":false},
     {"name":"wordpress01", "code":"wordpress", "last_update":"2014-08-25", "title":"WordPress 3.9.2", "description":"Walbrixの WordPress仮想アプライアンスを更新します。(現在3.5.1)", "acquired":1000, "goal":1000, "done":true},

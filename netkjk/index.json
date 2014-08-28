@@ -1,4 +1,5 @@
 [
+    {"name":"snort-fluentd", "code":"snort-fluentd", "last_update":"2014-08-28", "title":"SnortのアラートをFluentdに送る記事", "description":"Snortのアラートを Fluentdに送る設定例の記事を書きます", "acquired":0, "goal":1000, "done":false},
     {"name":"oscar01", "code":"oscar", "last_update":"2014-08-27", "title":"全文検索NASの設計と実装についてのドキュメント", "description":"「全文検索NASの設計と実装」と題したドキュメントを追記して再度公開します", "acquired":0, "goal":1000, "done":false},
     {"name":"viral01", "code":"viral", "last_update":"2014-08-27", "title":"クソバイラル警告サービスの開発", "description":"クソバイラルのリンクを Twitterでシェアすると警告するサービスを開発します", "acquired":0, "goal":2000, "done":false},
     {"name":"discourse01", "code":"discourse", "last_update":"2014-08-27", "title":"Discourse 1.0.0", "description":"Walbrixの Discourse仮想アプライアンスを更新します。(現在0.9.9.1)", "acquired":0, "goal":1000, "done":false},

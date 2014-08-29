@@ -1,3 +1,5 @@
 {{define "details"}}
 <p><a href="http://manual.snort.org/node21.html" target="_blank">Snortのマニュアル</a>によれば <a href="" ng-click="wikipedia('Syslog')">syslogd<span class="glyphicon glyphicon-question-sign"></span></a>にアラートのログを飛ばすことができるらしいのでこれを <a href="http://knowledge.sakura.ad.jp/tech/1336/" target="_blank">Fluentd</a>の<a href="http://docs.fluentd.org/ja/articles/in_syslog" target="_blank">syslogインプットプラグイン</a>で受け取れないかと思っていろいろやってみるも Snort側から syslogのデータグラムがどうしても飛んでる気配がなくて一旦あきらめたのですが、再度トライしてうまくいったら <a href="http://www.walbrix.com/jp/blog/" target="_blank">会社のブログ</a>に設定例を書きます。</p>
+
+<p>参考: <a href="http://www.morihi-soc.net/?p=29" target="_blank">10分で出来る snort インストールと検知テスト at www.morihi-soc.net</a> - Snortにわざとアラートを出させるテストの仕方が参考になる記事</p>
 {{end}}

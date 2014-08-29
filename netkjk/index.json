@@ -1,5 +1,6 @@
 [
-    {"name":"vtigercrm01", "code":"vtigercrm", "last_update":"2014-08-19", "title":"vtiger CRM 6.0", "description":"Walbrix用の vtiger CRM仮想アプライアンスを作成します", "acquired":1000, "goal":1000, "done":true},
+    {"name":"92five01", "code":"92five", "last_update":"2014-08-29", "title":"92five", "description":"Walbrix用の 92five仮想アプライアンスを作成します", "acquired":0, "goal":1000, "done":false},
+    {"name":"vtigercrm01", "code":"vtigercrm", "last_update":"2014-08-28", "title":"vtiger CRM 6.0", "description":"Walbrix用の vtiger CRM仮想アプライアンスを作成します", "acquired":1000, "goal":1000, "done":true},
     {"name":"snort-fluentd", "code":"snort-fluentd", "last_update":"2014-08-28", "title":"SnortのアラートをFluentdに送る記事", "description":"Snortのアラートを Fluentdに送る設定例の記事を書きます", "acquired":0, "goal":1000, "done":false},
     {"name":"oscar01", "code":"oscar", "last_update":"2014-08-27", "title":"全文検索NASの設計と実装についてのドキュメント", "description":"「全文検索NASの設計と実装」と題したドキュメントを追記して再度公開します", "acquired":0, "goal":1000, "done":false},
     {"name":"viral01", "code":"viral", "last_update":"2014-08-27", "title":"クソバイラル警告サービスの開発", "description":"クソバイラルのリンクを Twitterでシェアすると警告するサービスを開発します", "acquired":0, "goal":2000, "done":false},

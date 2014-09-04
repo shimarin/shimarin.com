@@ -1,4 +1,5 @@
 [
+    {"name":"gogs01", "code":"gogs", "last_update":"2014-09-04", "title":"gogs", "description":"Walbrix用の gogs仮想アプライアンスを作成します", "acquired":0, "goal":1000, "done":false},
     {"name":"gitbucket01", "code":"gitbucket", "last_update":"2014-08-13", "title":"GitBucket 2.3", "description":"Walbrixの GitBucket仮想アプライアンスを更新します。(現在2.0)", "acquired":0, "goal":1000, "done":false},
     {"name":"sjsj01", "code":"sjsj", "last_update":"2014-08-30", "title":"「ScalaのようでJavaだけど少しScalaなJSON API」の記事", "description":"Scalaと Spring Frameworkを使って REST的なJSON APIを実装する的なシリーズ記事の続きを書きます", "acquired":0, "goal":1000, "done":false},
     {"name":"92five01", "code":"92five", "last_update":"2014-08-29", "title":"92five", "description":"Walbrix用の 92five仮想アプライアンスを作成します", "acquired":0, "goal":1000, "done":false},

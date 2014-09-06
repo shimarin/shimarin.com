@@ -1,4 +1,5 @@
 [
+    {"name":"zabbix01", "code":"zabbix", "last_update":"2014-08-13", "title":"Zabbix 2.2.5", "description":"Walbrixの Zabbix仮想アプライアンスを更新します。(現在2.2.0)", "acquired":1000, "goal":1000, "done":true},
     {"name":"gogs01", "code":"gogs", "last_update":"2014-09-04", "title":"gogs", "description":"Walbrix用の gogs仮想アプライアンスを作成します", "acquired":0, "goal":1000, "done":false},
     {"name":"gitbucket01", "code":"gitbucket", "last_update":"2014-08-13", "title":"GitBucket 2.3", "description":"Walbrixの GitBucket仮想アプライアンスを更新します。(現在2.0)", "acquired":0, "goal":1000, "done":false},
     {"name":"sjsj01", "code":"sjsj", "last_update":"2014-08-30", "title":"「ScalaのようでJavaだけど少しScalaなJSON API」の記事", "description":"Scalaと Spring Frameworkを使って REST的なJSON APIを実装する的なシリーズ記事の続きを書きます", "acquired":0, "goal":1000, "done":false},
@@ -13,7 +14,6 @@
     {"name":"angularjs02", "code":"angular-fileupload", "last_update":"2014-08-25", "title":"angular-file-uploadの記事", "description":"AngularJSでファイルアップロード機能を実現するためのディレクティブを紹介する記事を会社のブログに書きます", "acquired":0, "goal":1000, "done":false},
     {"name":"wordpress01", "code":"wordpress", "last_update":"2014-08-25", "title":"WordPress 3.9.2", "description":"Walbrixの WordPress仮想アプライアンスを更新します。(現在3.5.1)", "acquired":1000, "goal":1000, "done":true},
     {"name":"juminzei01", "code":"juminzei", "last_update":"2014-08-22", "title":"住民税一期分", "description":"浮いた食費で住民税一期分(￥1,000）を納めてきます", "acquired":624, "goal":1000, "done":false},
-    {"name":"zabbix01", "code":"zabbix", "last_update":"2014-08-13", "title":"Zabbix 2.2.5", "description":"Walbrixの Zabbix仮想アプライアンスを更新します。(現在2.2.0)", "acquired":1000, "goal":1000, "done":false},
     {"name":"eccube01", "code":"eccube", "last_update":"2014-08-18", "title":"EC-CUBE 2.13.2", "description":"Walbrix用の EC-CUBE仮想アプライアンスを最新版に更新します(現在2.12.3)", "acquired":0, "goal":1000, "done":false},
     {"name":"owncloud01", "code":"owncloud", "last_update":"2014-08-18", "title":"ownCloud 7.0.1", "description":"Walbrixの ownCloud仮想アプライアンスを更新します。(現在 6.0.0a)", "acquired":1000, "goal":1000, "done":true},
     {"name":"movabletype01", "code":"movabletype", "last_update":"2014-08-18", "title":"Movable Type(OpenSource) 5.2.10", "description":"オープンソース版Movable Typeの仮想アプライアンスを更新します。(現在5.2.3)", "acquired":0, "goal":1000, "done":false},

@@ -1,4 +1,5 @@
 [
+    {"name":"python01", "code":"python", "last_update":"2014-09-20", "title":"Pythonでgmailを使ってメールを送る方法の記事", "description":"Pythonから gmailのsmtpサーバを使って日本語のメールを送る方法について記事を書きます。", "acquired":0, "goal":1000, "done":false},
     {"name":"zabbix01", "code":"zabbix", "last_update":"2014-08-13", "title":"Zabbix 2.2.5", "description":"Walbrixの Zabbix仮想アプライアンスを更新します。(現在2.2.0)", "acquired":1000, "goal":1000, "done":true},
     {"name":"gogs01", "code":"gogs", "last_update":"2014-09-04", "title":"gogs", "description":"Walbrix用の gogs仮想アプライアンスを作成します", "acquired":0, "goal":1000, "done":false},
     {"name":"gitbucket01", "code":"gitbucket", "last_update":"2014-08-13", "title":"GitBucket 2.3", "description":"Walbrixの GitBucket仮想アプライアンスを更新します。(現在2.0)", "acquired":0, "goal":1000, "done":false},

@@ -1,4 +1,5 @@
 [
+    {"name":"redmine01", "code":"redmine", "last_update":"2014-10-27", "title":"Redmine 2.6.0", "description":"Walbrixの Redmine仮想アプライアンスを更新します。(現在 2.3.0)", "acquired":0, "goal":1000, "done":true},
     {"name":"imgsearch", "code":"imgsearch", "last_update":"2014-09-22", "title":"妄想検索エンジン", "description":"検索キーワードから検索者の意図を勝手に想像して回答するという企画", "acquired":0, "goal":1000, "done":false},
     {"name":"python01", "code":"python", "last_update":"2014-09-20", "title":"Pythonでgmailを使ってメールを送る方法の記事", "description":"Pythonから gmailのsmtpサーバを使って日本語のメールを送る方法について記事を書きます。", "acquired":0, "goal":1000, "done":false},
     {"name":"zabbix01", "code":"zabbix", "last_update":"2014-08-13", "title":"Zabbix 2.2.5", "description":"Walbrixの Zabbix仮想アプライアンスを更新します。(現在2.2.0)", "acquired":1000, "goal":1000, "done":true},
@@ -28,7 +29,6 @@
     {"name":"otoiawase01", "code":"otoiawase", "last_update":"2014-08-16", "title":"簡単設置お問い合わせフォームの紹介ページ作成", "description":"PHPとAngularJS、Bootstrapでできた簡単設置でレスポンシブなお問い合わせフォームについてのページを作成します", "acquired":0, "goal":1000, "done":false},
     {"name":"kandan01", "code":"kandan", "last_update":"2014-08-14", "title":"Kandan仮想アプライアンスの作成", "description":"HipChatやChatWorkのようなチャットサービスのオープンソース実装である Kandanの Walbrix用仮想アプライアンスを作成します", "acquired":0, "goal":1000, "done":false},
    {"name":"wbport01", "code":"wbport", "last_update":"2014-08-13", "title":"WBPORT.comの会員登録機能", "description":"WBPORT.comのサインアップ（会員登録）機能を作ります", "acquired":0, "goal":1000, "done":false},
-    {"name":"redmine01", "code":"redmine", "last_update":"2014-08-12", "title":"Redmine 2.5.2", "description":"Walbrixの Redmine仮想アプライアンスを更新します。(現在 2.3.0)", "acquired":0, "goal":1000, "done":false},
     {"name":"fluentd01", "code":"fluentd", "last_update":"2014-08-12", "title":"Fluentd 0.10.52", "description":"Walbrixの Fluentd仮想アプライアンスを更新します。(現在 0.10.47)", "acquired":0, "goal":1000, "done":false},
     {"name":"enganime01", "code":"enganime", "last_update":"2014-08-12", "title":"「英語でアニメ観ようず」の記事", "description":"日本アニメの英語吹き替え版DVDから適当なシーンを拾って解説するブログの記事をひとつ書きます", "acquired":0, "goal":1000, "done":false},
     {"name":"openvpn-pptp01", "code":"openvpn-pptp", "last_update":"2014-08-12", "title":"異種VPN統合に関する記事", "description":"さくらVPSなどで、OpenVPN(L2)とPPTPを同一の仮想ネットワークに接続する例の記事を書きます", "acquired":0, "goal":1000, "done":false}

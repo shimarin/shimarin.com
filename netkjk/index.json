@@ -1,4 +1,7 @@
 [
+    {"name":"openvas01", "code":"openvas", "last_update":"2014-10-22", "title":"OpenVAS", "description":"Walbrix用のOpenVAS仮想アプライアンスを作成します", "acquired":0, "goal":1000, "done":false},
+    {"name":"otoiawase01", "code":"otoiawase", "last_update":"2014-10-21", "title":"簡単設置お問い合わせフォームの紹介ページ作成", "description":"PHPとAngularJS、Bootstrapでできた簡単設置でレスポンシブなお問い合わせフォームについてのページを作成します", "acquired":0, "goal":1000, "done":true},
+    {"name":"sugarce01", "code":"sugarce", "last_update":"2014-10-21", "title":"SugarCRM 6.5日本語版", "description":"Walbrix用のSugarCRM 6.5日本語版仮想アプライアンスを作成します", "acquired":0, "goal":1000, "done":false},
     {"name":"imgsearch", "code":"imgsearch", "last_update":"2014-09-22", "title":"妄想検索エンジン", "description":"検索キーワードから検索者の意図を勝手に想像して回答するという企画", "acquired":0, "goal":1000, "done":false},
     {"name":"python01", "code":"python", "last_update":"2014-09-20", "title":"Pythonでgmailを使ってメールを送る方法の記事", "description":"Pythonから gmailのsmtpサーバを使って日本語のメールを送る方法について記事を書きます。", "acquired":0, "goal":1000, "done":false},
     {"name":"zabbix01", "code":"zabbix", "last_update":"2014-08-13", "title":"Zabbix 2.2.5", "description":"Walbrixの Zabbix仮想アプライアンスを更新します。(現在2.2.0)", "acquired":1000, "goal":1000, "done":true},
@@ -25,7 +28,6 @@
     {"name":"shimmie01", "code":"shimmie", "last_update":"2014-08-17", "title":"Shimmie仮想アプライアンスの作成", "description":"オープンソースのPixiv的な画像掲示板 Shimmieの Walbrix用仮想アプライアンスを作成します", "acquired":0, "goal":1000, "done":false},
     {"name":"danbooru01", "code":"danbooru", "last_update":"2014-08-17", "title":"Danbooru 2.57.2", "description":"Walbrixの Danbooru仮想アプライアンスを更新します。(現在2012年10月版)", "acquired":0, "goal":1000, "done":false},
     {"name":"howtosend", "code":"howtosend", "last_update":"2014-08-16", "title":"お恵みの送り方を画像で解説する", "description":"お恵みの送り方について何も説明がなくて不親切なのでAmazonのスクリーンショットなどで説明します", "acquired":0, "goal":1000, "done":false},
-    {"name":"otoiawase01", "code":"otoiawase", "last_update":"2014-08-16", "title":"簡単設置お問い合わせフォームの紹介ページ作成", "description":"PHPとAngularJS、Bootstrapでできた簡単設置でレスポンシブなお問い合わせフォームについてのページを作成します", "acquired":0, "goal":1000, "done":false},
     {"name":"kandan01", "code":"kandan", "last_update":"2014-08-14", "title":"Kandan仮想アプライアンスの作成", "description":"HipChatやChatWorkのようなチャットサービスのオープンソース実装である Kandanの Walbrix用仮想アプライアンスを作成します", "acquired":0, "goal":1000, "done":false},
    {"name":"wbport01", "code":"wbport", "last_update":"2014-08-13", "title":"WBPORT.comの会員登録機能", "description":"WBPORT.comのサインアップ（会員登録）機能を作ります", "acquired":0, "goal":1000, "done":false},
     {"name":"redmine01", "code":"redmine", "last_update":"2014-08-12", "title":"Redmine 2.5.2", "description":"Walbrixの Redmine仮想アプライアンスを更新します。(現在 2.3.0)", "acquired":0, "goal":1000, "done":false},
